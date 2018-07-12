@@ -11,8 +11,9 @@ body{
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#d1d1d1',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 .center{
-  width: 492px;
-  height: 492px;
+  max-width: 652px;
+  width: 100%;
+  height: auto;
   position: absolute;
   left: 50%;
   top: 40%;
